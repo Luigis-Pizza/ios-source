@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DD6A6A21C81FFD00B2BE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A6921C81FFD00B2BE18 /* AppDelegate.swift */; };
+		84DD6A6C21C81FFD00B2BE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A6B21C81FFD00B2BE18 /* ViewController.swift */; };
+		84DD6A6F21C81FFD00B2BE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD6A6D21C81FFD00B2BE18 /* Main.storyboard */; };
+		84DD6A7221C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A7021C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld */; };
+		84DD6A7421C81FFE00B2BE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD6A7321C81FFE00B2BE18 /* Assets.xcassets */; };
+		84DD6A7721C81FFE00B2BE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD6A7521C81FFE00B2BE18 /* LaunchScreen.storyboard */; };
+		84DD6A8221C81FFE00B2BE18 /* Lugi_s_Pizza_PopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A8121C81FFE00B2BE18 /* Lugi_s_Pizza_PopTests.swift */; };
+		84DD6A8D21C81FFE00B2BE18 /* Lugi_s_Pizza_PopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A8C21C81FFE00B2BE18 /* Lugi_s_Pizza_PopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DD6A7E21C81FFE00B2BE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DD6A5E21C81FFD00B2BE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DD6A6521C81FFD00B2BE18;
+			remoteInfo = "Lugi's Pizza Pop";
+		};
+		84DD6A8921C81FFE00B2BE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DD6A5E21C81FFD00B2BE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DD6A6521C81FFD00B2BE18;
+			remoteInfo = "Lugi's Pizza Pop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DD6A6621C81FFD00B2BE18 /* Lugi's Pizza Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lugi's Pizza Pop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD6A6921C81FFD00B2BE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DD6A6B21C81FFD00B2BE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DD6A6E21C81FFD00B2BE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DD6A7121C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lugi_s_Pizza_Pop.xcdatamodel; sourceTree = "<group>"; };
+		84DD6A7321C81FFE00B2BE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DD6A7621C81FFE00B2BE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DD6A7821C81FFE00B2BE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD6A7D21C81FFE00B2BE18 /* Lugi's Pizza PopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lugi's Pizza PopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD6A8121C81FFE00B2BE18 /* Lugi_s_Pizza_PopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugi_s_Pizza_PopTests.swift; sourceTree = "<group>"; };
+		84DD6A8321C81FFE00B2BE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD6A8821C81FFE00B2BE18 /* Lugi's Pizza PopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lugi's Pizza PopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD6A8C21C81FFE00B2BE18 /* Lugi_s_Pizza_PopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugi_s_Pizza_PopUITests.swift; sourceTree = "<group>"; };
+		84DD6A8E21C81FFE00B2BE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DD6A6321C81FFD00B2BE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD6A7A21C81FFE00B2BE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD6A8521C81FFE00B2BE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DD6A5D21C81FFD00B2BE18 = {
+			isa = PBXGroup;
+			children = (
+				84DD6A6821C81FFD00B2BE18 /* Lugi's Pizza Pop */,
+				84DD6A8021C81FFE00B2BE18 /* Lugi's Pizza PopTests */,
+				84DD6A8B21C81FFE00B2BE18 /* Lugi's Pizza PopUITests */,
+				84DD6A6721C81FFD00B2BE18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DD6A6721C81FFD00B2BE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DD6A6621C81FFD00B2BE18 /* Lugi's Pizza Pop.app */,
+				84DD6A7D21C81FFE00B2BE18 /* Lugi's Pizza PopTests.xctest */,
+				84DD6A8821C81FFE00B2BE18 /* Lugi's Pizza PopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DD6A6821C81FFD00B2BE18 /* Lugi's Pizza Pop */ = {
+			isa = PBXGroup;
+			children = (
+				84DD6A6921C81FFD00B2BE18 /* AppDelegate.swift */,
+				84DD6A6B21C81FFD00B2BE18 /* ViewController.swift */,
+				84DD6A6D21C81FFD00B2BE18 /* Main.storyboard */,
+				84DD6A7321C81FFE00B2BE18 /* Assets.xcassets */,
+				84DD6A7521C81FFE00B2BE18 /* LaunchScreen.storyboard */,
+				84DD6A7821C81FFE00B2BE18 /* Info.plist */,
+				84DD6A7021C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld */,
+			);
+			path = "Lugi's Pizza Pop";
+			sourceTree = "<group>";
+		};
+		84DD6A8021C81FFE00B2BE18 /* Lugi's Pizza PopTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DD6A8121C81FFE00B2BE18 /* Lugi_s_Pizza_PopTests.swift */,
+				84DD6A8321C81FFE00B2BE18 /* Info.plist */,
+			);
+			path = "Lugi's Pizza PopTests";
+			sourceTree = "<group>";
+		};
+		84DD6A8B21C81FFE00B2BE18 /* Lugi's Pizza PopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DD6A8C21C81FFE00B2BE18 /* Lugi_s_Pizza_PopUITests.swift */,
+				84DD6A8E21C81FFE00B2BE18 /* Info.plist */,
+			);
+			path = "Lugi's Pizza PopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DD6A6521C81FFD00B2BE18 /* Lugi's Pizza Pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD6A9121C81FFE00B2BE18 /* Build configuration list for PBXNativeTarget "Lugi's Pizza Pop" */;
+			buildPhases = (
+				84DD6A6221C81FFD00B2BE18 /* Sources */,
+				84DD6A6321C81FFD00B2BE18 /* Frameworks */,
+				84DD6A6421C81FFD00B2BE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lugi's Pizza Pop";
+			productName = "Lugi's Pizza Pop";
+			productReference = 84DD6A6621C81FFD00B2BE18 /* Lugi's Pizza Pop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DD6A7C21C81FFE00B2BE18 /* Lugi's Pizza PopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD6A9421C81FFE00B2BE18 /* Build configuration list for PBXNativeTarget "Lugi's Pizza PopTests" */;
+			buildPhases = (
+				84DD6A7921C81FFE00B2BE18 /* Sources */,
+				84DD6A7A21C81FFE00B2BE18 /* Frameworks */,
+				84DD6A7B21C81FFE00B2BE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DD6A7F21C81FFE00B2BE18 /* PBXTargetDependency */,
+			);
+			name = "Lugi's Pizza PopTests";
+			productName = "Lugi's Pizza PopTests";
+			productReference = 84DD6A7D21C81FFE00B2BE18 /* Lugi's Pizza PopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DD6A8721C81FFE00B2BE18 /* Lugi's Pizza PopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD6A9721C81FFE00B2BE18 /* Build configuration list for PBXNativeTarget "Lugi's Pizza PopUITests" */;
+			buildPhases = (
+				84DD6A8421C81FFE00B2BE18 /* Sources */,
+				84DD6A8521C81FFE00B2BE18 /* Frameworks */,
+				84DD6A8621C81FFE00B2BE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DD6A8A21C81FFE00B2BE18 /* PBXTargetDependency */,
+			);
+			name = "Lugi's Pizza PopUITests";
+			productName = "Lugi's Pizza PopUITests";
+			productReference = 84DD6A8821C81FFE00B2BE18 /* Lugi's Pizza PopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DD6A5E21C81FFD00B2BE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jose Luis Romero";
+				TargetAttributes = {
+					84DD6A6521C81FFD00B2BE18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84DD6A7C21C81FFE00B2BE18 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84DD6A6521C81FFD00B2BE18;
+					};
+					84DD6A8721C81FFE00B2BE18 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84DD6A6521C81FFD00B2BE18;
+					};
+				};
+			};
+			buildConfigurationList = 84DD6A6121C81FFD00B2BE18 /* Build configuration list for PBXProject "Lugi's Pizza Pop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DD6A5D21C81FFD00B2BE18;
+			productRefGroup = 84DD6A6721C81FFD00B2BE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DD6A6521C81FFD00B2BE18 /* Lugi's Pizza Pop */,
+				84DD6A7C21C81FFE00B2BE18 /* Lugi's Pizza PopTests */,
+				84DD6A8721C81FFE00B2BE18 /* Lugi's Pizza PopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DD6A6421C81FFD00B2BE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD6A7721C81FFE00B2BE18 /* LaunchScreen.storyboard in Resources */,
+				84DD6A7421C81FFE00B2BE18 /* Assets.xcassets in Resources */,
+				84DD6A6F21C81FFD00B2BE18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD6A7B21C81FFE00B2BE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD6A8621C81FFE00B2BE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DD6A6221C81FFD00B2BE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD6A7221C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld in Sources */,
+				84DD6A6C21C81FFD00B2BE18 /* ViewController.swift in Sources */,
+				84DD6A6A21C81FFD00B2BE18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD6A7921C81FFE00B2BE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD6A8221C81FFE00B2BE18 /* Lugi_s_Pizza_PopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DD6A8421C81FFE00B2BE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD6A8D21C81FFE00B2BE18 /* Lugi_s_Pizza_PopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DD6A7F21C81FFE00B2BE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DD6A6521C81FFD00B2BE18 /* Lugi's Pizza Pop */;
+			targetProxy = 84DD6A7E21C81FFE00B2BE18 /* PBXContainerItemProxy */;
+		};
+		84DD6A8A21C81FFE00B2BE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DD6A6521C81FFD00B2BE18 /* Lugi's Pizza Pop */;
+			targetProxy = 84DD6A8921C81FFE00B2BE18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DD6A6D21C81FFD00B2BE18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DD6A6E21C81FFD00B2BE18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DD6A7521C81FFE00B2BE18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DD6A7621C81FFE00B2BE18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DD6A8F21C81FFE00B2BE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DD6A9021C81FFE00B2BE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DD6A9221C81FFE00B2BE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lugi's Pizza Pop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lugi-s-Pizza-Pop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DD6A9321C81FFE00B2BE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lugi's Pizza Pop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lugi-s-Pizza-Pop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DD6A9521C81FFE00B2BE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lugi's Pizza PopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lugi-s-Pizza-PopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lugi's Pizza Pop.app/Lugi's Pizza Pop";
+			};
+			name = Debug;
+		};
+		84DD6A9621C81FFE00B2BE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lugi's Pizza PopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lugi-s-Pizza-PopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lugi's Pizza Pop.app/Lugi's Pizza Pop";
+			};
+			name = Release;
+		};
+		84DD6A9821C81FFE00B2BE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lugi's Pizza PopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lugi-s-Pizza-PopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lugi's Pizza Pop";
+			};
+			name = Debug;
+		};
+		84DD6A9921C81FFE00B2BE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lugi's Pizza PopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lugi-s-Pizza-PopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lugi's Pizza Pop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DD6A6121C81FFD00B2BE18 /* Build configuration list for PBXProject "Lugi's Pizza Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD6A8F21C81FFE00B2BE18 /* Debug */,
+				84DD6A9021C81FFE00B2BE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD6A9121C81FFE00B2BE18 /* Build configuration list for PBXNativeTarget "Lugi's Pizza Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD6A9221C81FFE00B2BE18 /* Debug */,
+				84DD6A9321C81FFE00B2BE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD6A9421C81FFE00B2BE18 /* Build configuration list for PBXNativeTarget "Lugi's Pizza PopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD6A9521C81FFE00B2BE18 /* Debug */,
+				84DD6A9621C81FFE00B2BE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD6A9721C81FFE00B2BE18 /* Build configuration list for PBXNativeTarget "Lugi's Pizza PopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD6A9821C81FFE00B2BE18 /* Debug */,
+				84DD6A9921C81FFE00B2BE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DD6A7021C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DD6A7121C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodel */,
+			);
+			currentVersion = 84DD6A7121C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodel */;
+			path = Lugi_s_Pizza_Pop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84DD6A5E21C81FFD00B2BE18 /* Project object */;
+}
