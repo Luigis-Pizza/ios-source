@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84DD6A6A21C81FFD00B2BE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A6921C81FFD00B2BE18 /* AppDelegate.swift */; };
-		84DD6A6C21C81FFD00B2BE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A6B21C81FFD00B2BE18 /* ViewController.swift */; };
+		84DD6A6C21C81FFD00B2BE18 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A6B21C81FFD00B2BE18 /* RegisterViewController.swift */; };
 		84DD6A6F21C81FFD00B2BE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD6A6D21C81FFD00B2BE18 /* Main.storyboard */; };
 		84DD6A7221C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DD6A7021C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld */; };
 		84DD6A7421C81FFE00B2BE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD6A7321C81FFE00B2BE18 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		84DD6A6621C81FFD00B2BE18 /* Lugi's Pizza Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lugi's Pizza Pop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DD6A6921C81FFD00B2BE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84DD6A6B21C81FFD00B2BE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DD6A6B21C81FFD00B2BE18 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		84DD6A6E21C81FFD00B2BE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DD6A7121C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lugi_s_Pizza_Pop.xcdatamodel; sourceTree = "<group>"; };
 		84DD6A7321C81FFE00B2BE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				84DD6A6921C81FFD00B2BE18 /* AppDelegate.swift */,
-				84DD6A6B21C81FFD00B2BE18 /* ViewController.swift */,
+				84DD6A6B21C81FFD00B2BE18 /* RegisterViewController.swift */,
 				84DD6A6D21C81FFD00B2BE18 /* Main.storyboard */,
 				84DD6A7321C81FFE00B2BE18 /* Assets.xcassets */,
 				84DD6A7521C81FFE00B2BE18 /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DD6A7221C81FFD00B2BE18 /* Lugi_s_Pizza_Pop.xcdatamodeld in Sources */,
-				84DD6A6C21C81FFD00B2BE18 /* ViewController.swift in Sources */,
+				84DD6A6C21C81FFD00B2BE18 /* RegisterViewController.swift in Sources */,
 				84DD6A6A21C81FFD00B2BE18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
