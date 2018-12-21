@@ -10,9 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var welcomeImg: UIImageView!
+    
+    @IBAction func loginButton(_ sender: Any) {
+        print("Works but no segue")
+    }
+    
+    @IBAction func regButton(_ sender: Any) {
+        print("Works but no destination")
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
 
